@@ -1,0 +1,9 @@
+
+#edad:in-range{
+    border: 2px solid green;
+    background-color: green;
+}
+#edad:out-of-range{
+    border: 2px solid red;
+    background-color: red;
+}

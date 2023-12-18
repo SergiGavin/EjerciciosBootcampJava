@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family: "Christmas Snow";
+    src: url(./elementosCss/fuenteLetraPingu/Christmas\ Snow.ttf);
+}
+.container_all{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 50vh 50vh;
+}
+.pingu{
+    position: absolute;
+    place-self: center
+}
+.nombre_pingu{
+    position: absolute;
+    margin-left: 45.5%;
+    margin-top: 20vh;
+    font-size: 8vh;
+    font-family:"Christmas Snow";
+}
+.apartado1{
+    display: flex;
+    background-color: rgb(72, 230, 67);
+    height: 50vh;
+    width: 50vw;
+}
+.linea_hambre{
+    height: 5vh;
+    width: 35vw;
+    place-self: center;
+    position:absolute;
+    margin-left: 7vw;
+}
+.container_comida{
+    height: 8vh;
+    width: 50vw;
+    text-align-last: justify;
+    margin-top: 2vh;
+}
+.texto_eat{
+    place-self: center;
+    position:absolute;
+    margin-left: 8vw;
+    margin-top: 6vh;
+}
+.pez1{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+}
+.pez2{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+}
+.pez3{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+}
+.pez4{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+}
+.container_eat{
+    display: flex;
+    place-self: end;
+    position:absolute;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+}
+.eat{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(16, 92, 1);
+    padding: 1vh 2vh;
+}
+.apartado2{
+    display: flex;
+    background-color: rgb(255, 234, 114);
+    height: 50vh;
+    /*Al poner 50 me sale la barra horizontal al tener 4 fotos puestas*/
+    width: 49.999vw;
+}
+.linea_play{
+    height: 5vh;
+    width: 35vw;
+    place-self: center;
+    position:absolute;
+    margin-left: 7vw;
+}
+.texto_play{
+    place-self: center;
+    position:absolute;
+    margin-left: 8vw;
+    margin-top: 6vh;
+}
+.container_jugar{
+    height: 8vh;
+    width: 50vw;
+    margin-top: 2vh;
+    text-align-last:justify;
+}
+.bubbles{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+}
+.pelota_playa{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+}
+.jugar{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+}
+.deslizar{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+}
+.container_play{
+    display: flex;
+    place-self: end;
+    position:absolute;
+    margin-bottom: 5vh;
+    margin-left: 38vw;
+}
+.play{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(120, 122, 2, 0.829);
+    padding: 1vh 2vh;
+}
+.apartado3{
+    display: flex;
+    background-color: rgb(250, 152, 134);
+    height: 50vh;
+    width: 50vw;
+}
+.linea_fight{
+    height: 5vh;
+    width: 35vw;
+    place-self: center;
+    position:absolute;
+    margin-left: 7vw;
+}
+.texto_fight{
+    place-self: center;
+    position:absolute;
+    margin-left: 8vw;
+    margin-top: 6vh;
+}
+.container_lucha{
+    height: 8vh;
+    width: 50vw;
+    text-align-last: center;
+    margin-top: 2vh;
+}
+.pistola{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+}
+.cuchillo{
+    height: 10vh;
+    width: 6vw;
+    position: relative;
+    margin-top: 1vh;
+    margin-left: 5vw;
+}
+.caballero{
+    height: 12vh;
+    width: 5vw;
+    position: relative;
+    margin-left: 5vw;
+}
+.container_fight{
+    display: flex;
+    place-self: end;
+    position:absolute;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+}
+.fight{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(177, 43, 43, 0.63);
+    padding: 1vh 2vh;
+}
+.apartado4{
+    display: flex;
+    background-color: rgb(110, 161, 255);
+    height: 50vh;
+    width: 50vw;
+}
+.linea_sleep{
+    height: 5vh;
+    width: 35vw;
+    place-self: center;
+    position:absolute;
+    margin-left: 7vw;
+}
+.texto_sleep{
+    place-self: center;
+    position:absolute;
+    margin-left: 8vw;
+    margin-top: 6vh;
+}
+.container_dormir{
+    height: 8vh;
+    width: 50vw;
+    margin-top: 2vh;
+    text-align-last:center;
+}
+.sleep1{
+    height: 8vh;
+    width: 5vw;
+    position: relative;
+    margin-top: 4vh;
+}
+.sleep2{
+    height: 8vh;
+    width: 5vw;
+    position: relative;
+    margin-left: 5vw;
+}
+.sleep3{
+    height: 8vh;
+    width: 5vw;
+    position: relative;
+    margin-left: 5vw;
+}
+.container_sleep{
+    display: flex;
+    place-self: end;
+    position:absolute;
+    margin-bottom: 5vh;
+    margin-left: 38vw;
+}
+.sleep{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(1, 36, 100);
+    padding: 1vh 2vh;
+}
+
+.linea_general{
+    height: 5vh;
+    width: 15vw;
+    place-self: center;
+    position:absolute;
+    margin-top: 30vh;
+}
+.texto_general{
+    place-self: center;
+    position:absolute;
+    margin-top: 40vh;
+}
+
+.estado{
+    height: 8vh;
+    width: 8vw;
+    position: absolute;
+    place-self: center;
+    margin-left: 33vw;
+    margin-bottom:25vh ;
+}

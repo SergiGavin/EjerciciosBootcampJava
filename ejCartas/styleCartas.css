@@ -1,0 +1,11 @@
+
+.container_cartas{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.carta1, .carta2{
+    height: 20vh;
+}

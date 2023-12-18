@@ -1,0 +1,28 @@
+.div_addItem{
+    border-color: rgba(221, 235, 221, 0.87);
+    border-style: solid;
+    border-width: 2px;
+    width: 20vw;
+    display: block;
+    
+}
+#num_annadir,#num_borrar{
+    width: 5vw;
+}
+h2{
+    text-align: center;
+    margin-top: 0px;
+}
+button{
+    align-items: center;
+}
+
+.div_removItem{
+    border-color: rgba(221, 235, 221, 0.87);
+    border-style: solid;
+    border-width: 2px;
+    width: 20vw;
+}
+p{
+    display: inline-flex;
+}

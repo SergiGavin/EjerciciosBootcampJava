@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+}
+.container_calc{
+    display: flex;
+    height: 60vh;
+    width: 30vw;
+    background-color: rgba(42, 48, 109, 0.726);
+    justify-content: center;    
+}
+.estructura_calc{
+    place-self: center;
+}
+.pantalla_calc{
+    display: inline-flex;
+    align-items: center;
+    height: 10vh;
+    width: 25vw;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    justify-content: flex-end; 
+}
+.container_btn{
+    text-align-last: center;
+}
+button{
+    height: 5vh;
+    width: 5vw;
+}
+.container_btn{
+    margin-top: 5vh;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 30vh;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+#linea1{
+    margin-top: 0.7vh;
+}
+.del{
+    background-color: gray;
+    color: white;
+}
+.reset{
+    width: 10vw;
+    background-color: gray;
+    color: white;
+}
+.igual{
+    width: 10vw;
+    background-color: red;
+    color: white;
+}
+
+

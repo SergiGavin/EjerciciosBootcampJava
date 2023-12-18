@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(213, 213, 235, 0.795);
+}
+span, .pieColumna{
+    background-color: rgba(62, 206, 231, 0.856);
+    font-weight: bold;
+}
+table{
+    border-color: black;
+    border-style: solid;
+    border-top-right-radius:20px ;
+    border-top-left-radius: 20px;
+    background-color: bisque;
+}
+.celda{
+    width: 130px;
+    
+    border-left-color: black ;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-bottom-color: black ;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+td{
+    text-align: center;
+}

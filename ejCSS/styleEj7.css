@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(224, 128, 128)
+}
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style:double;
+    column-rule-width: 2px;
+    column-rule-color:red;
+}
+p:hover{
+    background-color: rgb(68, 67, 67);
+    color: yellow;
+}
+h1:hover{
+   color: blue;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color: red;
+    height: 15vh;
+}
+nav{
+    background-color: blue;
+    height: 5vh;
+}
+section{
+    background-color: antiquewhite;
+    height: 75vh;
+    width: 60vw;
+    float: left;
+}
+aside{
+    background-color: rgb(236, 129, 191);
+    height: 75vh;
+    float: right;
+    width: 33vw;
+}
+footer{
+    background-color: rgb(77, 209, 24);
+    height: 5vh;
+    clear: both;
+}

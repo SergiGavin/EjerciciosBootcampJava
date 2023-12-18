@@ -1,0 +1,68 @@
+/*1*/
+*{
+    /*background-color: red; */
+}
+/*2*/
+p{
+    /*background-color: black;*/
+}
+/*3*/
+#title-1{
+    /*background-color: yellow;*/
+}
+/*4*/
+.bg-yellow{
+    /*background-color: orange;*/
+}
+/*5*/
+[id]{
+    /*background-color: gray;*/
+}
+/*6*/
+[id="title-1"]{
+    /*background-color: green;*/
+}
+/*7*/
+[href="https://www.yahoo.com"]{
+    /*background-color: blueviolet;*/
+}
+/*8*/
+[class^="title"]{
+    /*background-color: brown;*/
+}
+/*9*/
+[href$=".com"]{
+    /*background-color: cyan;*/
+}
+/*10*/
+[class*="title"]{
+    /*background-color: gold;*/
+}
+/*11*/
+[href*="127"]{
+    /*background-color: pink;*/
+}
+/*12*/
+[href^="http"]{
+    /*background-color: lawngreen;*/
+}
+/*13*/
+a,p,h1{
+    /*background-color: darkcyan;*/
+}
+/*14*/
+main>p{
+    /*background-color: magenta;*/
+}
+/*15*/
+h1 + p {
+    /*background-color: black; */
+}
+/*16*/
+h1 + * {
+    /*background-color: blue ;*/
+}
+/*17*/
+main > *{
+    /*background-color: brown;*/
+}

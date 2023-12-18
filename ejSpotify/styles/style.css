@@ -1,0 +1,338 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+body{
+    margin: 5px 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoSpotify{
+    height: 10vh;
+    width: 15vw;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    margin-bottom: 3vh;
+}
+
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-top: 5vh;
+    
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 2vw;
+}
+main{
+    display: flex;
+}
+.foto_fondo{
+    background-image: url(../images/landing.jpg);
+    height: 100vh;
+    width: 200vw;
+    background-position: center;
+    background-size: 100% 100%;
+}
+h1{
+    font-size: 40px;
+    margin-top: 20vh;
+}
+.descripcion_titulo{
+    font-size: 20px;
+}
+h1, .descripcion_titulo{
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+}
+
+.titulo_2{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline green;
+    
+}
+
+.info{
+    display: flex;
+}
+.music_icon, .music_icon2, .music_icon3{
+    width: 10vw;
+}
+/*Margen para linear la imagen del medios*/
+.music_icon2{
+    margin-top: 14px;
+}
+.info_Spoti, .info_Spoti_2, .info_Spoti_3{
+    height: 45vh;
+    width: 35vw;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.icon_titulo_1,.icon_titulo_2, .icon_titulo_3{
+    color: #00B172;
+}
+
+.apartado_3{    
+    display: flex;
+    height: 120vh;
+    width: 98vw;
+    background-color: #00B172;
+    /* cambiamos direccion de a columnas para pueda poner
+    los demas elementos abajo en vez de al lado.*/
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.titulo_3{
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+    align-items: flex-start;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+.titulo_search{
+    font-size: 20px;
+    color: white;
+    margin-left: 5vw;
+}
+.text_search{
+    font-size: 15px;
+    color: white;
+    margin-left: 5vw;
+}
+.titulo_browse{
+    font-size: 20px;
+    color: white;
+    margin-left: 5vw;
+}
+.text_browse{
+    font-size: 15px;
+    color: white;
+    margin-left: 5vw;
+}
+.titulo_discover{
+    font-size: 20px;
+    color: white;
+    margin-left: 5vw;
+}
+.text_discover{
+    font-size: 15px;
+    color: white;
+    margin-left: 5vw;
+}
+.container_foto{
+    justify-content: center;
+    margin-left: 40vw;
+    margin-top: 40vh;
+    position: absolute;
+}
+.logo_blanco{
+    height: 15vh;
+    width: 10vw;    
+}
+.container_foto_2{
+    margin-left: 65vw;
+    margin-top: 15vh;
+    position: absolute;
+}
+.spotify_app{
+    height: 80vh;
+    width: 25vw; 
+}
+/*
+
+--- TELEFONO 320PX---
+
+*/
+
+@media (width <=320px) {
+    body{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logoSpotify{
+        height: 10vh;
+        width: 30vw;
+        margin-left: 33vw;
+        
+    }
+    a{
+        font-size: 10px;
+        
+    }
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 8vw;
+        margin-bottom: 2vh;
+    }
+    
+    ul li{
+        display: inline-block;
+    }
+    main{
+        display: flex;
+    }
+    .foto_fondo{
+        background-image: url(../images/landing.jpg);
+        height: 75vh;
+        width: 100vw;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    h1{
+        font-size: 40px;
+        margin-top: 20vh;
+    }
+    .descripcion_titulo{
+        font-size: 20px;
+    }
+    h1, .descripcion_titulo{
+        justify-content: center;
+        color: #FFF;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .titulo_2{
+        text-align: center;
+        font-size: 25px;
+        text-decoration: underline green;
+        
+    }
+    
+    .info{
+        display: flex;
+    }
+    .music_icon, .music_icon2, .music_icon3{
+        width: 10vw;
+    }   
+    .info_Spoti, .info_Spoti_2, .info_Spoti_3{
+        height: 45vh;
+        width: 35vw;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 2vw;
+        margin-top: 0px;
+    }
+    .info_Spoti, .info_Spoti_3{
+        margin-top: 2vh;
+    }
+    
+    .icon_text_2, .icon_text_3{
+        margin-top: 7vh;
+    }
+    
+    .apartado_3{    
+        display: flex;
+        height: 80vh;
+        width: 98vw;
+        background-color: #00B172;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .titulo_3{
+        font-size: 20px;
+        text-decoration: underline;
+        text-decoration-color: white;
+        color: white;
+        align-items: flex-start;
+        margin-left: 5vw;
+        margin-top: 5vh;
+    }
+    .titulo_search{
+        font-size: 15px;
+        color: white;
+        margin-left: 5vw;
+        margin-bottom: 0;
+    }
+    .text_search{
+        font-size: 10px;
+        color: white;
+        margin-left: 5vw;
+        margin-top: 0px;
+    }
+    .titulo_browse{
+        font-size: 15px;
+        color: white;
+        margin-left: 5vw;
+        margin-bottom: 0px;
+    }
+    .text_browse{
+        font-size: 10px;
+        color: white;
+        margin-left: 5vw;
+        margin-top: 0px;
+    }
+    .titulo_discover{
+        font-size: 15px;
+        color: white;
+        margin-left: 5vw;
+        margin-bottom: 0px;
+    }
+    .text_discover{
+        font-size: 10px;
+        color: white;
+        margin-left: 5vw;
+        margin-top: 0px;
+    }
+    .container_foto{
+        justify-content: center;
+        margin-left: 27vw;
+        margin-top: 60vh;
+        position: absolute;
+    }
+    .logo_blanco{
+        height: 15vh;
+        width: 15vw;    
+    }
+    .container_foto_2{
+        justify-content: center;
+        position: absolute;
+        margin-top: 15vh;
+        margin-left: 63vw;
+    }
+    .spotify_app{
+        height: 50vh;
+        width: 30vw; 
+    }
+    
+}
+
+
+

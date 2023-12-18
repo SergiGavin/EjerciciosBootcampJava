@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagochi</title>
+    <link rel="stylesheet" href="./styleEj16Tamagochi.css">
+    <link rel="stylesheet" href="./elementosCss/fuenteLetraPingu/Christmas Snow.ttf">
+</head>
+<body>
+    <div class="container_all">
+        <img src="./elementosCss/pingu.png" class="pingu" id="pingu">
+        <img src="./elementosCss/corazon.png" class="estado" id="estado">
+        <audio src="./sonido_pingu.mp3" id="sonido" type="audio/mpeg"></audio>
+        <div class="nombre_pingu">PINGU</div>
+        <div class="apartado1">
+            <progress  id="linea_hambre" class="linea_hambre" max="100" min="0" value="100"></progress>
+            <div id="texto_eat" class="texto_eat">Valor Hambre</div>
+            <div class="container_comida">
+                <img src="./elementosCss/comidaPingu/pez1.png" class="pez1" id="pez1">
+                <img src="./elementosCss/comidaPingu/pez2.png" class="pez2" id="pez2">
+                <img src="./elementosCss/comidaPingu/pez3.png" class="pez3" id="pez3">
+                <img src="./elementosCss/comidaPingu/pez4.png" class="pez4" id="pez4">
+            </div>
+            <div class="container_eat"> 
+                <label id="eat" class="eat">EAT</label>
+            </div>
+        </div>
+        <div class="apartado2">
+            <progress id="linea_play" class="linea_play" max="100" min="0" value="100"></progress>
+            <div id="texto_play" class="texto_play">Valor Jugar</div>
+            <div class="container_jugar">
+                <img src="./elementosCss/playPingu/bubbles.gif" class="bubbles" id="bubbles">
+                <img src="./elementosCss/playPingu/pelota_playa.png" class="pelota_playa" id="pelota_playa">
+                <img src="./elementosCss/playPingu/pinguDeslizar.png" class="deslizar" id="deslizar">
+                <img src="./elementosCss/playPingu/pinguJugando.png" class="jugar" id="jugar">
+            </div>
+            <div class="container_play"> 
+                <label id="play" class="play">PLAY</label>
+            </div>
+        </div>
+        <div class="apartado3">
+            <progress id="linea_fight"class="linea_fight" max="100" min="0" value="100"></progress>
+            <div id="texto_fight" class="texto_fight">Valor Pelea</div>
+            <div class="container_lucha">
+                <img src="./elementosCss/fightPingu/pelea1.png" class="pistola" id="pistola">
+                <img src="./elementosCss/fightPingu/pelea2.png" class="cuchillo" id="cuchillo">
+                <img src="./elementosCss/fightPingu/pelea3.png" class="caballero" id="caballero">
+            </div>
+            <div class="container_fight"> 
+                <label id="fight"class="fight">FIGHT</label>
+            </div> 
+        </div>
+        <div class="apartado4">
+            <progress id="linea_sleep"class="linea_sleep" max="100" min="0" value="100"></progress>
+            <div id="texto_sleep" class="texto_sleep">Valor Dormir</div>
+            <div class="container_dormir">
+                <img src="./elementosCss/sleepPingu/sleep1.png" class="sleep1" id="sleep1">
+                <img src="./elementosCss/sleepPingu/sleep2.png" class="sleep2" id="sleep2">
+                <img src="./elementosCss/sleepPingu/sleep3.png" class="sleep3" id="sleep3">
+            </div>
+            <div class="container_sleep"> 
+                <label id="sleep"class="sleep">SLEEP</label>
+            </div>
+        </div>
+        <progress id="linea_general"class="linea_general" max="100" min="0" value="100"></progress>
+        <div id="texto_general" class="texto_general">Valor Felicidad</div>
+    </div>
+    <script src="./javascript/mainEj16Tamagochi.js"></script>
+</body>
+</html>

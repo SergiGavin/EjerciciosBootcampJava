@@ -1,0 +1,191 @@
+*{
+    margin: 5px;
+}
+@media(width <=320px){
+    .div1{
+        background-color: orange;
+        height: 5vh;
+        width: 95vw;
+        margin-bottom: 5px;
+    }
+    .div2{
+        background-color: orange;
+        height: 5vh;
+        width: 95vw;
+        margin-bottom: 10px;
+    }
+    .div3{
+        background-color: rgb(235, 235, 1);
+        height: 10vh;
+        width: 95vw;
+        margin-bottom: 10px;
+    }
+    .div4{
+        background-color: rgb(53, 63, 207);
+        height: 20vh;
+        width: 95vw;
+        margin-bottom: 5px;
+    }
+    .div5{
+        background-color: rgb(53, 63, 207);
+        height: 20vh;
+        width: 95vw;
+        margin-bottom: 5px;
+    }
+    .div6{
+        background-color: rgb(53, 63, 207);
+        height: 20vh;
+        width: 95vw;
+        margin-bottom: 10px;
+    }
+    .div7{
+        background-color: rgb(226, 227, 241);
+        height: 9vh;
+        width: 95vw;
+        margin-left: -1px;
+        margin-right: -1px;
+
+    }
+}
+@media(320px < width <= 768px){
+    .div1{
+        background-color: orange;
+        height: 5vh;
+        width: 95vw;
+        margin-bottom: 5px;
+    }
+    .div2{
+        background-color: orange;
+        height: 5vh;
+        width: 95vw;
+        margin-bottom: 5px;
+    }
+    .div3{
+        background-color: rgb(235, 235, 1);
+        height: 40vh;
+        width: 95vw;
+        margin-bottom: 10px;
+    }
+    .div4{
+        background-color: rgb(53, 63, 207);
+        height: 10vh;
+        width: 95vw;
+        margin-bottom: 5px;
+    }
+    .div5{
+        background-color: rgb(53, 63, 207);
+        height: 10vh;
+        width: 95vw;
+        margin-bottom: 5px;
+    }
+    .div6{
+        background-color: rgb(53, 63, 207);
+        height: 10vh;
+        width: 95vw;
+        margin-bottom: 10px;
+    }
+    
+    .div7{
+        background-color: rgb(226, 227, 241);
+        height: 10vh;
+        width: 43vw;
+        float: left;
+    }
+    .div8{
+        background-color: rgb(226, 227, 241);
+        height: 10vh;
+        width: 43vw;
+        float: left;
+        margin-left: 50px;
+    }    
+    .div9{
+        background-color: rgb(226, 227, 241);
+        height: 10vh;
+        width: 43vw;
+        float: left;
+    }
+    .div10{
+        background-color: rgb(226, 227, 241);
+        height: 10vh;
+        width: 43vw;
+        float: left;
+        margin-left: 50px;
+        
+    }
+    
+    
+    
+    
+
+}
+@media(768px < width <= 1024px){
+    .div1{
+        background-color: orange;
+        height: 10vh;
+        width: 47vw;
+        margin-bottom: 5px;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .div2{
+        background-color: orange;
+        height: 10vh;
+        width: 47vw;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .div3{
+        background-color: rgb(235, 235, 1);
+        height: 40vh;
+        width: 95vw;
+        clear: both;
+        margin-bottom: 10px;
+    }
+    .div4{
+        background-color: rgb(53, 63, 207);
+        height: 31vh;
+        width: 31vw;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .div5{
+        background-color: rgb(53, 63, 207);
+        height: 31vh;
+        width: 31vw;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .div6{
+        background-color: rgb(53, 63, 207);
+        height: 31vh;
+        width: 31vw;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .div7{
+        background-color: rgb(226, 227, 241);
+        height: 22vh;
+        width: 22vw;
+        float: left;
+        margin-left: 10px;
+    }
+    .div8{
+        background-color: rgb(226, 227, 241);
+        height: 22vh;
+        width: 22vw;
+        float: left;
+    }
+    .div9{
+        background-color: rgb(226, 227, 241);
+        height: 22vh;
+        width: 22vw;
+        float: left;
+    }
+    .div10{
+        background-color: rgb(226, 227, 241);
+        height: 22vh;
+        width: 22vw;
+        float: left;
+    }
+}
+

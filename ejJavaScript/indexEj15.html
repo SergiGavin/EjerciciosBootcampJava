@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+    <link rel="stylesheet" href="styleEj15.css">
+</head>
+<body>
+    
+    <div class="escenario">
+        <h1>Juego piedra papel tijeras</h1>
+    <div class="jugador1">
+        <h2>Jugador 1</h2>
+        <div id="P1">
+            <button id="papelP1" class="papelP1">✋</button>
+            <button id="piedraP1" class="piedraP1">👊</button>
+            <button id="tijerasP1" class="tijerasP1">✌</button>
+            <input  id="contador1" class="contadorP1" type="number" min="0" value="0">
+        </div>
+    </div>
+    <div class="jugador2">
+        <h2 id="p2OrIA">Jugador 2</h2>
+        <div id="P2"> 
+            <button id="papelP2" class="papelP2">✋</button>
+            <button id="piedraP2" class="piedraP2">👊</button>
+            <button id="tijerasP2" class="tijerasP2">✌</button>
+            <input id="contador2"class="contadorP2" type="number" min="0" value="0">
+        </div>
+    </div>
+    <div class="botonesJugar">
+        <button id="nextRound"class="siguienteRonda">Siguiente ronda</button>
+        <button id="maquina">Jugar vs Maquina</button>
+        <button id="reset">Reset</button>
+    </div>
+    <div class ="containerResultado">
+        <label id="resultado" type="text" class="resultadoRonda"></label>
+    </div>
+    
+    </div>
+    
+
+
+    <script src="mainEj15.js"></script>
+</body>
+</html>

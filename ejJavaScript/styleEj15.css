@@ -1,0 +1,64 @@
+.escenario{
+    background-color: antiquewhite;
+    width: 60vw;
+    height: 60vh;
+}
+.jugador1{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.jugador2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonesJugar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    height: 3vh;
+    color: rgba(0, 0, 0, 0.767);
+    font-style: oblique;
+}
+h2{
+    font-style: oblique;
+}
+#P1{
+    justify-content: flex-start;
+}
+#P2{
+    justify-content: flex-end;
+}
+.papelP1, .papelP2{
+    margin-left: 2vw;
+}
+.piedraP1, .piedraP2{
+    margin-left: 1vw;
+}
+.tijerasP1, .tijerasP2{
+    margin-left: 1vw;
+}
+.contadorP1, .contadorP2{
+    width: 3vw;
+}
+.containerResultado{
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+}
+.resultadoRonda{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+
+}
+#nextRound, #maquina, #reset {
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+
+
+

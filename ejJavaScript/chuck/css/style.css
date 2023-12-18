@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+#container_all{
+    display: flex;
+    height: 35vh;
+    width: 65vw;
+    background-color: gray;
+    place-content: center;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+#container{
+    display: inline-flex;
+    height: 30vh;
+    width: 70vw;
+    background-color: pink;
+    border-style: black solid;
+    align-self: center;
+    align-items: center;
+    place-content: center;
+}
+#foto{
+    height: 10vh;
+    width: 10vw;
+}
+#frase{
+    width: 35vw;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+button{
+    background-color: tomato;
+    color: white;
+    width: 5vw;
+    margin-right: 2vw;
+}

@@ -1,0 +1,59 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+//@import "./node_modules/bootstrap/scss/utilities";  Descomentar cuando trabajemos con la versión 5.1 de Bootstrap
+@import "./node_modules/bootstrap/scss/maps";  //Comentar cuando no trabajemos con la versión 5.3 de Bootstrap
+@import "./node_modules/bootstrap/scss/mixins";
+
+$custom-theme-colors: (
+	"fondo-color": #fcd190,
+	"amarillo-color":rgb(218, 196, 7),
+	"azul-color":rgb(14, 174, 214),
+	"rojo-color":rgb(145, 4, 4),
+	"gris-color":rgb(85, 83, 83),
+	"marino-color":rgb(2, 60, 167),
+);
+.custom-height {
+    height: 10vh;
+}
+.borde-rojo{
+	border: 6px solid red
+}
+.borde-amarillo{
+	border: 6px solid rgb(170, 189, 67)
+}
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+$utilities-colors: map-merge($utilities-colors, $theme-colors-rgb);
+$utilities-text-colors: map-loop(
+	$utilities-colors,
+	rgba-css-var,
+	"$key",
+	"text"
+);
+$utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// .bg classes not automatically generated. As an example, manually add
+// .bg-custom-color
+
+.bg-fondo-color {
+	background-color: var(--bs-fondo-color);
+}
+.bg-amarillo-color {
+	background-color: var(--bs-amarillo-color);
+}
+.bg-azul-color {
+	background-color: var(--bs-azul-color);
+}
+.bg-rojo-color {
+	background-color: var(--bs-rojo-color);
+}
+.bg-gris-color {
+	background-color: var(--bs-gris-color);
+}
+.bg-marino-color {
+	background-color: var(--bs-marino-color);
+}
